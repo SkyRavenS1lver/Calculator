@@ -24,31 +24,37 @@
         android:shadowColor="@color/black"
         android:layout_margin="5dp"
         />
-
-    <EditText
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_display">
+        <EditText
         android:id="@+id/display1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:background="@drawable/bg_display"
-        android:paddingBottom="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
+            android:textStyle="bold"
         android:layout_margin="5dp"
-        />
+        /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_display">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/display2"
         android:inputType="numberDecimal"
-        android:background="@drawable/bg_display"
         android:textColor="@color/black"
-        android:paddingBottom="20dp"
-        android:textSize="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         android:layout_margin="5dp"
-        />
+        /></LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,7 +69,7 @@
             android:id="@+id/add"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:text="+"/>
         <Button
             android:layout_width="wrap_content"
@@ -72,7 +78,7 @@
             android:id="@+id/substract"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:text="-"/>
         <Button
             android:layout_width="wrap_content"
@@ -81,14 +87,14 @@
             android:id="@+id/times"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:text="x"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/divide"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:text="/"/>
@@ -104,9 +110,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="RESULT:"
-            android:paddingLeft="3dp"
-            android:textSize="21sp"
+            android:paddingStart="3dp"
+            android:textSize="18sp"
             android:textColor="@color/black"
+            android:textStyle="bold"
             android:layout_weight="4"
             android:gravity="center"/>
         <TextView
@@ -116,6 +123,7 @@
             android:id="@+id/result"
             android:textSize="30sp"
             android:layout_weight="1"
+            android:textStyle="bold"
             android:gravity="center"/>
     </LinearLayout>
 </LinearLayout>
