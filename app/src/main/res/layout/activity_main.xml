@@ -63,6 +63,7 @@
             android:id="@+id/add"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
+            android:textSize="25dp"
             android:text="+"/>
         <Button
             android:layout_width="wrap_content"
@@ -71,6 +72,7 @@
             android:id="@+id/substract"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
+            android:textSize="30dp"
             android:text="-"/>
         <Button
             android:layout_width="wrap_content"
@@ -79,12 +81,14 @@
             android:id="@+id/times"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
+            android:textSize="20dp"
             android:text="x"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:id="@+id/divide"
+            android:textSize="25dp"
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:text="/"/>
@@ -110,7 +114,8 @@
             android:layout_height="match_parent"
             android:textColor="@color/black"
             android:id="@+id/result"
-            android:textSize="20sp"
-            android:layout_weight="1"/>
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:gravity="center"/>
     </LinearLayout>
 </LinearLayout>
