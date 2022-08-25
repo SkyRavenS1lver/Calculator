@@ -7,7 +7,6 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/back"
-    android:padding="5dp"
     >
 
     <TextView
@@ -23,6 +22,7 @@
         android:background="@drawable/bg_calc"
         android:textColor="@color/black"
         android:shadowColor="@color/black"
+        android:layout_margin="5dp"
         />
 
     <EditText
@@ -36,6 +36,7 @@
         android:layout_marginBottom="5dp"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:layout_margin="5dp"
         />
     <EditText
         android:layout_width="match_parent"
@@ -46,12 +47,15 @@
         android:textColor="@color/black"
         android:paddingBottom="20dp"
         android:textSize="20sp"
+        android:layout_margin="5dp"
         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="2dp"
-        android:paddingBottom="2dp">
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:clipToPadding="true"
+        >
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -89,7 +93,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_display">
+        android:background="@drawable/bg_display"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
