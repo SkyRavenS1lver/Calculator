@@ -7,7 +7,9 @@
         <entry key="..\:/Calculator2/app/src/main/res/drawable/bg_calc.xml" value="0.332" />
         <entry key="..\:/Calculator2/app/src/main/res/drawable/bg_calculator.xml" value="0.332" />
         <entry key="..\:/Calculator2/app/src/main/res/drawable/bg_display.xml" value="0.332" />
+        <entry key="..\:/Calculator2/app/src/main/res/layout/activity_contrain_layout.xml" value="0.25" />
         <entry key="..\:/Calculator2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Calculator2/app/src/main/res/layout/activity_relative_layout.xml" value="0.141015625" />
       </map>
     </option>
   </component>
