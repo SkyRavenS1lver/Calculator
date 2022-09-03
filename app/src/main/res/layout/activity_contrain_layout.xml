@@ -8,8 +8,6 @@
     android:orientation="vertical"
     android:background="@drawable/back"
     >
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -86,7 +84,6 @@
         android:id="@+id/add"
         android:layout_width="119dp"
         android:layout_height="65dp"
-
         android:backgroundTint="@color/black"
         android:text="+"
         android:textColor="@color/white"
@@ -99,7 +96,7 @@
     <Button
         android:id="@+id/substract"
         android:layout_width="97dp"
-        android:layout_height="63dp"
+        android:layout_height="67dp"
         android:layout_marginStart="4dp"
 
         android:backgroundTint="@color/black"
