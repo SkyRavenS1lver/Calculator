@@ -50,7 +50,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -94,8 +94,8 @@
 
     <Button
         android:id="@+id/add"
-        android:layout_width="116dp"
-        android:layout_height="63dp"
+        android:layout_width="119dp"
+        android:layout_height="65dp"
         android:layout_weight="1"
         android:backgroundTint="@color/black"
         android:text="+"
