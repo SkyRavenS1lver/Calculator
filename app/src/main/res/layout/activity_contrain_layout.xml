@@ -32,12 +32,14 @@
         android:id="@+id/constraintLayout"
         android:layout_width="410dp"
         android:layout_height="65dp"
-        android:layout_marginEnd="4dp"
-        android:background="@color/white"
+
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_display"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297">
+        app:layout_constraintVertical_bias="0.307">
 
         <EditText
             android:id="@+id/display1"
@@ -50,14 +52,14 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@drawable/bg_display"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -108,8 +110,8 @@
 
     <Button
         android:id="@+id/substract"
-        android:layout_width="99dp"
-        android:layout_height="63dp"
+        android:layout_width="100dp"
+        android:layout_height="66dp"
         android:layout_marginStart="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/black"
@@ -124,11 +126,10 @@
         app:layout_constraintVertical_bias="0.405" />
 
 
-
     <Button
         android:id="@+id/divide"
-        android:layout_width="105dp"
-        android:layout_height="61dp"
+        android:layout_width="102dp"
+        android:layout_height="64dp"
         android:layout_weight="1"
         android:backgroundTint="@color/black"
         android:text="/"
