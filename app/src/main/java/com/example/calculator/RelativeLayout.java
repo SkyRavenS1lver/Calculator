@@ -20,7 +20,7 @@ public class RelativeLayout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_relative_layout);
         display1 = findViewById(R.id.display1);
         display2 =  findViewById(R.id.display2);
         results = findViewById(R.id.result);
